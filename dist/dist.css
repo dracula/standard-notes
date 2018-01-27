@@ -302,4 +302,8 @@ body {
   color: var(--body-text-color);
 }
 
+.sn-component .border-color {
+  border-color: var(--border-color);
+}
+
 /*# sourceMappingURL=dist.css.map */

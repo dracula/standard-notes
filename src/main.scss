@@ -284,15 +284,15 @@ body {
 
  /*SN Components */
 
- :root {
-   --body-text-color: var(--foreground-color);
-   --body-background-color: var(--background-color);
+:root {
+ --body-text-color: var(--foreground-color);
+ --body-background-color: var(--background-color);
 
-   --element-text-color: var(--foreground-color);
-   --element-background-color: var(--background-color);
+ --element-text-color: var(--foreground-color);
+ --element-background-color: var(--background-color);
 
-   --tint-color: var(--highlight-color);
- }
+ --tint-color: var(--highlight-color);
+}
 
 .sn-component .element-background-color {
   background-color: var(--element-background-color);
@@ -308,4 +308,8 @@ body {
 
 .sn-component .body-text-color {
   color: var(--body-text-color);
+}
+
+.sn-component .border-color {
+  border-color: var(--border-color);
 }
