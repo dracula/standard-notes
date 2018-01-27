@@ -54,6 +54,7 @@ body {
 
 .app-bar {
   background-color: var(--background-color) !important;
+  border-color: var(--border-color) !important;
 }
 
 .section-title-bar {
@@ -303,7 +304,7 @@ body {
 }
 
 .sn-component .border-color {
-  border-color: var(--border-color);
+  border-color: var(--border-color) !important;
 }
 
 /*# sourceMappingURL=dist.css.map */
