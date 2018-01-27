@@ -58,6 +58,10 @@ body {
 .app-bar {
   background-color: var(--background-color) !important;
   border-color: var(--border-color) !important;
+
+  .item.border {
+    border-color: var(--border-color) !important;
+  }
 }
 
 .section-title-bar {
