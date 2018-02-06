@@ -139,7 +139,7 @@ body {
   color: var(--foreground-color) !important;
 }
 
-.editor-content {
+.editor, .editor-content {
   background-color: var(--background-color) !important;
 }
 
@@ -158,7 +158,6 @@ body {
 
 /* Footer */
 #footer-bar {
-  border-top: 1px solid var(--footer-bar-border-top-color) !important;
   background-color: var(--background-color) !important;
 }
 
