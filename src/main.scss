@@ -190,7 +190,11 @@ body {
 }
 
 .CodeMirror-selected {
-  background: var(--background-color) !important;
+  background: var(--highlight-color) !important;
+}
+
+.CodeMirror-selectedtext {
+  color: white;
 }
 
 .CodeMirror-gutters {
