@@ -20,6 +20,16 @@
 
 /* General */
 
+.windows-web, .windows-desktop, .linux-web, .linux-desktop {
+  ::-webkit-scrollbar {
+    border-left-color: var(--border-color) !important;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--highlight-color) !important;
+  }
+}
+
 ::selection {
   background: var(--highlight-color) !important; /* WebKit/Blink Browsers */
   color: white;
