@@ -245,11 +245,16 @@ body {
 .editor-preview-active, .editor-preview-active-side {
   background-color: var(--background-color) !important;
   border: 0 !important;
-  border-left: 1px solid white !important;
+  border-left: 1px solid black !important;
 }
 
 .editor-preview-active {
   border: 0 !important;
+}
+
+#sn-advanced-markdown-editor .editor-preview.editor-preview-active pre, #sn-advanced-markdown-editor .editor-preview-side.editor-preview-active-side pre {
+  background-color: #220c1f;
+  padding: 20px;
 }
 
 /* Simple Markdown Editor */
