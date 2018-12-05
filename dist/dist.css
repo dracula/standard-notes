@@ -11,6 +11,11 @@
   --footer-bar-border-top-color: 0;
   /* Column Menus */
   --menu-item-sep-color: rgba(0, 0, 0, 0.1);
+  --sn-component-foreground-color: var(--foreground-color);
+  --sn-component-background-color: transparent;
+  --sn-component-foreground-highlight-color: var(--highlight-color);
+  --sn-component-outer-border-color: transparent;
+  --sn-component-inner-border-color: var(--foreground-color);
   --sn-desktop-titlebar-bg-color: var(--background-color);
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--foreground-color);
