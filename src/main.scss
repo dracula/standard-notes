@@ -24,18 +24,19 @@
   --sn-component-inner-border-color: var(--foreground-color);
 
   // StyleKit Vars
-  --sn-stylekit-shadow-color: var(--highlight-color);
+
+  --sn-stylekit-shadow-color: black;
 
   --sn-stylekit-info-color: var(--highlight-color);
   --sn-stylekit-info-contrast-color: var(--foreground-color);
 
   --sn-stylekit-background-color: var(--background-color);
   --sn-stylekit-foreground-color: var(--foreground-color);
-  --sn-stylekit-border-color: #331d3d; // For borders inside background-color
+  --sn-stylekit-border-color: black; // For borders inside background-color
 
-  --sn-stylekit-contrast-background-color: var(--highlight-color);
+  --sn-stylekit-contrast-background-color: black;
   --sn-stylekit-contrast-foreground-color: black;
-  --sn-stylekit-contrast-border-color: var(--highlight-color); // For borders inside contrast-background-color
+  --sn-stylekit-contrast-border-color: black; // For borders inside contrast-background-color
 
   --sn-stylekit-paragraph-text-color: var(--foreground-color);
 
