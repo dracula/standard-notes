@@ -32,187 +32,26 @@
 
   --sn-stylekit-background-color: var(--background-color);
   --sn-stylekit-foreground-color: var(--foreground-color);
-  --sn-stylekit-border-color: black; // For borders inside background-color
+  --sn-stylekit-border-color: black;
 
   --sn-stylekit-contrast-background-color: black;
-  --sn-stylekit-contrast-foreground-color: black;
-  --sn-stylekit-contrast-border-color: black; // For borders inside contrast-background-color
+  --sn-stylekit-contrast-foreground-color: white;
+  --sn-stylekit-contrast-border-color: black;
 
-  --sn-stylekit-paragraph-text-color: var(--foreground-color);
+  --sn-stylekit-secondary-background-color: #0f1011;
+  --sn-stylekit-secondary-foreground-color: white;
+  --sn-stylekit-secondary-border-color: black;
+
+  --sn-stylekit-secondary-contrast-background-color: black;
+  --sn-stylekit-secondary-contrast-foreground-color: white;
+  --sn-stylekit-secondary-contrast-border-color: black;
+
+  --sn-stylekit-paragraph-text-color: white;
 
   --sn-desktop-titlebar-bg-color: var(--background-color);
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--foreground-color);
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
-}
-
-/* General */
-
-.windows-web, .windows-desktop, .linux-web, .linux-desktop {
-  ::-webkit-scrollbar {
-    border-left-color: var(--border-color) !important;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: var(--highlight-color) !important;
-  }
-}
-
-::selection {
-  background: var(--highlight-color) !important; /* WebKit/Blink Browsers */
-  color: white;
-}
-
-::-moz-selection {
-  background: var(--highlight-color) !important; /* Gecko Browsers */
-  color: white;
-}
-
-body {
-  color: var(--foreground-color) !important;
-}
-
-.app .section > .content {
-  background-color: var(--background-color) !important;
-}
-
-.add-button {
-  background-color: var(--background-color) !important;
-  color: var(--foreground-color) !important;
-}
-
-.blue { /*legacy*/
-  color: var(--highlight-color) !important;
-}
-
-.tinted {
-  color: var(--highlight-color) !important;
-}
-
-.tinted-selected {
-  color: var(--foreground-color) !important;
-}
-
-.app-bar {
-  background-color: var(--background-color) !important;
-  border-color: var(--border-color) !important;
-
-  .item.border {
-    border-color: var(--border-color) !important;
-  }
-}
-
-.section-title-bar {
-  color: var(--foreground-color) !important;
-  background-color: var(--background-color) !important;
-}
-
-.section-title-bar-header .title {
-  color: var(--foreground-color) !important;
-}
-
-/* Tags */
-
-.app .tags, .tags .content {
-  background-color: var(--background-color) !important;
-}
-
-.tags .tag {
-  color: var(--foreground-color) !important;
-}
-
-.tags .tag > .info > .title {
-  color: var(--foreground-color) !important;
-}
-
-.tags .tag a {
-  color: var(--highlight-color) !important;
-}
-
-.tags .tag.selected > .info > .title {
-  color: var(--highlight-color) !important;
-}
-
-.tags .tag.selected {
-  background-color: var(--background-color) !important;
-  color: var(--highlight-color) !important;
-}
-
-.tags .tag:hover:not(.selected) {
-  background-color: var(--background-color) !important;
-  color: var(--highlight-color) !important;
-}
-
-.tags .tag:hover:not(.selected) .info > .title  {
-  color: var(--highlight-color) !important;
-}
-
-
-
-/* Notes */
-
-.app .notes .content {
-  background-color: var(--background-color) !important;
-}
-
-.notes {
-  border-left: 0 !important;
-  border-right: 0 !important;
-}
-
-.notes .filter-section .filter-bar {
-  background-color: var(--background-color) !important;
-}
-
-.notes .note.selected {
-  background-color: var(--highlight-color) !important;
-  color: var(--foreground-color) !important;
-}
-
-.notes .note {
-  border-bottom: 1px solid var(--note-cell-border-color) !important;
-  background-color: var(--background-color) !important;
-  color: var(--foreground-color);
-}
-
-.notes .scrollable {
-  border-left: 1px solid var(--notes-column-left-border-color) !important;
-  border-right: 1px solid var(--notes-column-right-border-color) !important;
-}
-
-
-/* Editor */
-
-
-#editor-title-bar > .title > .input {
-  color: var(--foreground-color) !important;
-}
-
-.editor, .editor-content {
-  background-color: var(--background-color) !important;
-}
-
-.editor-content .editable {
-  background-color: var(--background-color);
-  color: var(--foreground-color);
-}
-
-#editor-title-bar .editor-tags .tags-input {
-  color: var(--foreground-color) !important;
-}
-
-#editor-title-bar #save-status {
-  color: #4C4C4C !important;
-}
-
-/* Footer */
-
-#footer-bar {
-  background-color: var(--background-color) !important;
-}
-
-.footer-bar-link > a {
-  color: var(--highlight-color) !important;
 }
 
 /* Editors */
