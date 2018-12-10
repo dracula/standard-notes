@@ -40,7 +40,7 @@
   --sn-stylekit-secondary-border-color: black;
   --sn-stylekit-secondary-contrast-background-color: black;
   --sn-stylekit-secondary-contrast-foreground-color: white;
-  --sn-stylekit-secondary-contrast-border-color: black;
+  --sn-stylekit-secondary-contrast-border-color: white;
   --sn-stylekit-paragraph-text-color: white;
   --sn-desktop-titlebar-bg-color: var(--background-color);
   --sn-desktop-titlebar-border-color: var(--border-color);
