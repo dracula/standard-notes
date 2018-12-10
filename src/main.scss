@@ -30,6 +30,21 @@
   --sn-stylekit-info-color: var(--highlight-color);
   --sn-stylekit-info-contrast-color: var(--foreground-color);
 
+  --sn-stylekit-neutral-color: #7c7c7c;
+  --sn-stylekit-neutral-contrast-color: white;
+
+  --sn-stylekit-success-color: #2B9612;
+  --sn-stylekit-success-contrast-color: white;
+
+  --sn-stylekit-warning-color: #f6a200;
+  --sn-stylekit-warning-contrast-color: white;
+
+  --sn-stylekit-danger-color: #F80324;
+  --sn-stylekit-danger-contrast-color: white;
+
+  --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
+
   --sn-stylekit-background-color: var(--background-color);
   --sn-stylekit-foreground-color: var(--foreground-color);
   --sn-stylekit-border-color: black;
@@ -52,137 +67,4 @@
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--foreground-color);
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
-}
-
-/* Editors */
-
-.CodeMirror {
-  background-color: var(--background-color) !important;
-  color: var(--foreground-color) !important;
-  border: 0 !important;
-}
-
-.CodeMirror-cursor {
-  border-color: white;
-}
-
-.CodeMirror-selected {
-  background: var(--highlight-color) !important;
-}
-
-.CodeMirror-selectedtext {
-  color: white;
-}
-
-.CodeMirror-gutters {
-  background-color: var(--background-color) !important;
-  color: var(--foreground-color) !important;
-  border-color: var(--border-color) !important;
-}
-
-.CodeMirror .cm-header { font-family: arial; color: var(--foreground-color) !important;}
-.CodeMirror .cm-variable-2 { font-family: arial; color: var(--highlight-color) !important;}
-.CodeMirror .cm-link, .cm-string, .cm-keyword { font-family: arial; color: var(--foreground-color) !important;}
-
-.CodeMirror .CodeMirror-linenumber { color: gray !important; }
-
-/* Code Editor bottom toolbar */
-
-#select-wrapper {
-  background-color: var(--background-color) !important;
-  color: var(--foreground-color) !important;
-  border-color: var(--border-color) !important;
-}
-
-
-/* Advanced Markdown Editor */
-
-.editor-toolbar {
-  background-color: var(--background-color) !important;
-  border-color: var(--border-color) !important;
-}
-
-.editor-toolbar::before, ::after {
-  background: 0 !important;
-}
-
-.editor-toolbar a, a.active {
-  color: var(--foreground-color) !important;
-  background-color: var(--background-color) !important;
-}
-
-.editor-preview-active, .editor-preview-active-side {
-  background-color: var(--background-color) !important;
-  border: 0 !important;
-  border-left: 1px solid black !important;
-}
-
-.editor-preview-active {
-  border: 0 !important;
-}
-
-#sn-advanced-markdown-editor .editor-preview.editor-preview-active pre, #sn-advanced-markdown-editor .editor-preview-side.editor-preview-active-side pre {
-  background-color: rgb(34, 12, 31);
-  padding: 20px;
-}
-
-/* Plus Editor */
-
-#plus-editor .note-editor.note-frame.fullscreen .note-editable {
-  background-color: var(--background-color) !important;
-  color: var(--foreground-color) !important;
-}
-
-#plus-editor .panel-default>.panel-heading {
-    background-color: var(--border-color) !important;
-}
-
-#plus-editor .btn-default {
-    color: var(--foreground-color) !important;
-    background-color: var(--background-color) !important;
-    border-color: var(--background-color) !important;
-}
-
-#plus-editor .panel-heading {
-    border-color: var(--border-color) !important;
-}
-
-#plus-editor .dropdown-menu>li>a {
-    color: var(--foreground-color);
-}
-
-.component-stack-border {
-  border-color: var(--border-color) !important;
-}
-
- /*SN Components */
-
-:root {
- --body-text-color: var(--foreground-color);
- --body-background-color: var(--background-color);
-
- --element-text-color: var(--foreground-color);
- --element-background-color: var(--background-color);
-
- --tint-color: var(--highlight-color);
-}
-
-.sn-component .element-background-color {
-  background-color: var(--element-background-color);
-}
-
-.sn-component .body-background-color {
-  background-color: var(--body-background-color);
-}
-
-.sn-component .element-text-color {
-  color: var(--element-text-color);
-}
-
-.sn-component .body-text-color {
-  color: var(--body-text-color);
-}
-
-.sn-component .border-color {
-  border-color: var(--border-color) !important;
 }
