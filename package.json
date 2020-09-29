@@ -1,5 +1,5 @@
 {
-  "name": "sn-theme-focus",
+  "name": "sn-theme-dracula",
   "version": "1.2.3",
   "main": "dist/dist.css",
   "devDependencies": {
@@ -13,6 +13,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sn-extensions/focus-theme.git"
+    "url": "git://github.com/SlyBouhafs/sn-theme-dracula.git"
   }
 }
