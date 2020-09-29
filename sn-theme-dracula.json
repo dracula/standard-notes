@@ -3,7 +3,7 @@
   "name": "Dracula",
   "content_type": "SN|Theme",
   "area": "themes",
-  "version": "1.2.3",
+  "version": "1.0.0",
   "description": "A Dracula theme for Standard Notes",
   "url": "https://raw.githubusercontent.com/SlyBouhafs/sn-theme-dracula/master/dist/dist.css",
   "latest_url": "https://raw.githubusercontent.com/SlyBouhafs/sn-theme-dracula/master/sn-theme-dracula.json",
