@@ -4,11 +4,15 @@
   --background-color: #282a36;
   --highlight-color: #bd93f9;
   --border-color: #6272a4;
+  --red: #ff5555;
+  --orange: #ffb86c;
+  --green: #50fa7b;
+  --neutral: #44475a;
 
   --sn-component-foreground-color: var(--foreground-color);
-  --sn-component-background-color: transparent;
+  --sn-component-background-color: var(--neutral);
   --sn-component-foreground-highlight-color: var(--highlight-color);
-  --sn-component-outer-border-color: transparent;
+  --sn-component-outer-border-color: var(--neutral);
   --sn-component-inner-border-color: var(--foreground-color);
 
   // StyleKit Vars
@@ -17,16 +21,16 @@
   --sn-stylekit-info-color: var(--highlight-color);
   --sn-stylekit-info-contrast-color: var(--foreground-color);
 
-  --sn-stylekit-neutral-color: #44475a;
+  --sn-stylekit-neutral-color: var(--neutral);
   --sn-stylekit-neutral-contrast-color: #f8f8f2;
 
-  --sn-stylekit-success-color: #50fa7b;
+  --sn-stylekit-success-color: var(--green);
   --sn-stylekit-success-contrast-color: #f8f8f2;
 
-  --sn-stylekit-warning-color: #ffb86c;
+  --sn-stylekit-warning-color: var(--orange);
   --sn-stylekit-warning-contrast-color: #f8f8f2;
 
-  --sn-stylekit-danger-color: #ff5555;
+  --sn-stylekit-danger-color: var(--red);
   --sn-stylekit-danger-contrast-color: #f8f8f2;
 
   --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
@@ -34,17 +38,17 @@
 
   --sn-stylekit-background-color: var(--background-color);
   --sn-stylekit-foreground-color: var(--foreground-color);
-  --sn-stylekit-border-color: #44475a;
+  --sn-stylekit-border-color: var(--neutral);
 
-  --sn-stylekit-contrast-background-color: #44475a;
+  --sn-stylekit-contrast-background-color: var(--neutral);
   --sn-stylekit-contrast-foreground-color: #f8f8f2;
-  --sn-stylekit-contrast-border-color: #44475a;
+  --sn-stylekit-contrast-border-color: var(--neutral);
 
-  --sn-stylekit-secondary-background-color: #44475a;
+  --sn-stylekit-secondary-background-color: var(--neutral);
   --sn-stylekit-secondary-foreground-color: #f8f8f2;
-  --sn-stylekit-secondary-border-color: #44475a;
+  --sn-stylekit-secondary-border-color: var(--neutral);
 
-  --sn-stylekit-secondary-contrast-background-color: #44475a;
+  --sn-stylekit-secondary-contrast-background-color: var(--neutral);
   --sn-stylekit-secondary-contrast-foreground-color: #f8f8f2;
   --sn-stylekit-secondary-contrast-border-color: #f8f8f2;
 
