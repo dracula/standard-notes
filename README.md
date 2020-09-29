@@ -1,1 +1,1 @@
-# Focus Theme
+# Dracula Theme for Standard Notes
