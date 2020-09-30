@@ -5,7 +5,7 @@
   "area": "themes",
   "version": "0.0.1",
   "description": "A Dracula theme for Standard Notes",
-  "url": "https://cdn.jsdelivr.net/gh/slybouhafs/sn-theme-dracula/dist/dist.css",
+  "url": "https://cdn.jsdelivr.net/gh/slybouhafs/sn-theme-dracula@0.0.1/dist/dist.css",
   "latest_url": "https://raw.githubusercontent.com/SlyBouhafs/sn-theme-dracula/master/sn-theme-dracula.json",
   "download_url": "https://github.com/SlyBouhafs/sn-theme-dracula/archive/0.0.1.zip",
   "marketing_url": "https://github.com/SlyBouhafs/sn-theme-dracula",
