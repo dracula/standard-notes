@@ -22,9 +22,9 @@
 
   // StyleKit Vars
 
-  --sn-stylekit-shadow-color: #000000;
+  --sn-stylekit-shadow-color: var(--background--color);
   --sn-stylekit-info-color: var(--highlight-color);
-  --sn-stylekit-info-contrast-color: var(--foreground-color);
+  --sn-stylekit-info-contrast-color: var(--background-color);
 
   --sn-stylekit-neutral-color: var(--neutral);
   --sn-stylekit-neutral-contrast-color: var(--foreground-color);
@@ -75,7 +75,3 @@
 
 }
 
-
-.note.selected {
-  background-color: var(--border-color)
-}
