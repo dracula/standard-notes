@@ -2,7 +2,7 @@
 
   --foreground-color: #f8f8f2;
   --background-color: #282a36;
-  --highlight-color: #bd93f9;
+  --highlight-color: #6272a4;
   --border-color: #6272a4;
   --red: #ff5555;
   --orange: #ffb86c;
@@ -22,16 +22,16 @@
   --sn-stylekit-info-contrast-color: var(--foreground-color);
 
   --sn-stylekit-neutral-color: var(--neutral);
-  --sn-stylekit-neutral-contrast-color: #f8f8f2;
+  --sn-stylekit-neutral-contrast-color: var(--foreground-color);
 
   --sn-stylekit-success-color: var(--green);
-  --sn-stylekit-success-contrast-color: #f8f8f2;
+  --sn-stylekit-success-contrast-color: var(--foreground-color);
 
   --sn-stylekit-warning-color: var(--orange);
-  --sn-stylekit-warning-contrast-color: #f8f8f2;
+  --sn-stylekit-warning-contrast-color: var(--foreground-color);
 
   --sn-stylekit-danger-color: var(--red);
-  --sn-stylekit-danger-contrast-color: #f8f8f2;
+  --sn-stylekit-danger-contrast-color: var(--foreground-color);
 
   --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
   --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
@@ -41,18 +41,18 @@
   --sn-stylekit-border-color: var(--neutral);
 
   --sn-stylekit-contrast-background-color: var(--neutral);
-  --sn-stylekit-contrast-foreground-color: #f8f8f2;
+  --sn-stylekit-contrast-foreground-color: var(--foreground-color);
   --sn-stylekit-contrast-border-color: var(--neutral);
 
   --sn-stylekit-secondary-background-color: var(--neutral);
-  --sn-stylekit-secondary-foreground-color: #f8f8f2;
+  --sn-stylekit-secondary-foreground-color: var(--foreground-color);
   --sn-stylekit-secondary-border-color: var(--neutral);
 
   --sn-stylekit-secondary-contrast-background-color: var(--neutral);
-  --sn-stylekit-secondary-contrast-foreground-color: #f8f8f2;
-  --sn-stylekit-secondary-contrast-border-color: #f8f8f2;
+  --sn-stylekit-secondary-contrast-foreground-color: var(--foreground-color);
+  --sn-stylekit-secondary-contrast-border-color: var(--foreground-color);
 
-  --sn-stylekit-paragraph-text-color: #f8f8f2;
+  --sn-stylekit-paragraph-text-color: var(--foreground-color);
 
   --sn-desktop-titlebar-bg-color: var(--background-color);
   --sn-desktop-titlebar-border-color: var(--border-color);
@@ -61,4 +61,11 @@
 
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
   --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
+}
+
+#editor-title-bar {
+
+  padding-top: 22px;
+  padding-bottom: 22px;
+
 }
