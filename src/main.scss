@@ -2,12 +2,17 @@
 
   --foreground-color: #f8f8f2;
   --background-color: #282a36;
-  --highlight-color: #6272a4;
+  --highlight-color: var(--purple);
   --border-color: #6272a4;
+
+  --neutral: #44475a;
   --red: #ff5555;
   --orange: #ffb86c;
   --green: #50fa7b;
-  --neutral: #44475a;
+  --pink: #ff79c6;
+  --purple: #bd93f9;
+  --cyan: #8be9fd;
+  --yellow: #f1fa8c;
 
   --sn-component-foreground-color: var(--foreground-color);
   --sn-component-background-color: var(--neutral);
@@ -65,7 +70,12 @@
 
 #editor-title-bar {
 
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding-top: 16px;
+  padding-bottom: 28px;
 
+}
+
+
+.note.selected {
+  background-color: var(--border-color)
 }
