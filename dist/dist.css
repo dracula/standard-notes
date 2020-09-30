@@ -3,6 +3,7 @@
   --background-color: #282a36;
   --highlight-color: var(--purple);
   --border-color: #6272a4;
+  --neutral-contrast: #44475a;
   --neutral: #1d1e26;
   --red: #ff5555;
   --orange: #ffb86c;
@@ -35,10 +36,10 @@
   --sn-stylekit-contrast-background-color: var(--neutral);
   --sn-stylekit-contrast-foreground-color: var(--foreground-color);
   --sn-stylekit-contrast-border-color: var(--neutral);
-  --sn-stylekit-secondary-background-color: var(--background-color);
+  --sn-stylekit-secondary-background-color: var(--neutral);
   --sn-stylekit-secondary-foreground-color: var(--foreground-color);
   --sn-stylekit-secondary-border-color: var(--neutral);
-  --sn-stylekit-secondary-contrast-background-color: var(--neutral);
+  --sn-stylekit-secondary-contrast-background-color: var(--neutral-contrast);
   --sn-stylekit-secondary-contrast-foreground-color: var(--foreground-color);
   --sn-stylekit-secondary-contrast-border-color: var(--foreground-color);
   --sn-stylekit-paragraph-text-color: var(--foreground-color);
