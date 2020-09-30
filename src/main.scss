@@ -26,7 +26,7 @@
   --sn-stylekit-info-color: var(--highlight-color);
   --sn-stylekit-info-contrast-color: var(--background-color);
 
-  --sn-stylekit-neutral-color: var(--neutral);
+  --sn-stylekit-neutral-color: var(--border-color);
   --sn-stylekit-neutral-contrast-color: var(--foreground-color);
 
   --sn-stylekit-success-color: var(--green);
@@ -49,7 +49,7 @@
   --sn-stylekit-contrast-foreground-color: var(--foreground-color);
   --sn-stylekit-contrast-border-color: var(--neutral);
 
-  --sn-stylekit-secondary-background-color: var(--neutral);
+  --sn-stylekit-secondary-background-color: var(--background-color);
   --sn-stylekit-secondary-foreground-color: var(--foreground-color);
   --sn-stylekit-secondary-border-color: var(--neutral);
 
@@ -71,7 +71,7 @@
 #editor-title-bar {
 
   padding-top: 16px;
-  padding-bottom: 28px;
+  padding-bottom: 24px;
 
 }
 
