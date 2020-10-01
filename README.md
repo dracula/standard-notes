@@ -6,4 +6,4 @@ The editor used in the screenshot is the [Rich Markdown Editor](https://github.c
 # Install
 Extensions → Import extension and paste this link:
 
-`https://raw.githubusercontent.com/SlyBouhafs/sn-theme-dracula/master/sn-theme-dracula.json`
+`https://cdn.jsdelivr.net/gh/slybouhafs/sn-theme-dracula/sn-theme-dracula.json`
