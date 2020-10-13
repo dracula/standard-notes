@@ -20,7 +20,7 @@
   --sn-stylekit-shadow-color: var(--neutral);
   --sn-stylekit-info-color: var(--highlight-color);
   --sn-stylekit-info-contrast-color: var(--background-color);
-  --sn-stylekit-neutral-color: var(--neutral-contrast);
+  --sn-stylekit-neutral-color: var(--foreground-color);
   --sn-stylekit-neutral-contrast-color: var(--foreground-color);
   --sn-stylekit-success-color: var(--green);
   --sn-stylekit-success-contrast-color: var(--background-color);
