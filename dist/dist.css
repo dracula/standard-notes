@@ -53,3 +53,6 @@
 #editor-title-bar {
   padding-top: 14px;
   padding-bottom: 26px; }
+
+.sn-component .sk-panel .sk-panel-footer .left {
+  color: var(--foreground-color); }
