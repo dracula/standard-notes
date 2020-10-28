@@ -9,7 +9,7 @@
   "latest_url": "https://cdn.jsdelivr.net/gh/dracula/sn-theme-dracula/sn-theme-dracula.json",
   "download_url": "https://github.com/dracula/sn-theme-dracula/archive/0.0.13.zip",
   "marketing_url": "https://github.com/dracula/sn-theme-dracula",
-  "thumbnail_url": "https://github.com/dracula/sn-theme-dracula/master/preview.png",
+  "thumbnail_url": "https://cdn.jsdelivr.net/gh/dracula/sn-theme-dracula/preview.png",
   "dock_icon": {
     "type": "circle",
     "background_color": "#bd93f9",
