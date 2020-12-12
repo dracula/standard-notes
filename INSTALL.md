@@ -1,4 +1,4 @@
-### [Standard Notes](standardnotes.org/)
+### [Standard Notes](https://standardnotes.org/)
 
 #### Install manually
 
