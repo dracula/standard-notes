@@ -2,7 +2,7 @@
 
 #### Install manually
 
-1. Extensions → Import extension and paste this link: ` https://cdn.jsdelivr.net/gh/dracula/sn-theme-dracula/sn-theme-dracula.json `
+1. Extensions → Import extension and paste this link: ` https://cdn.jsdelivr.net/gh/dracula/standard-notes/sn-theme-dracula.json `
 
 2. Click 'Install'
 
