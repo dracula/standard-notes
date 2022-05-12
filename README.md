@@ -1,10 +1,8 @@
-# Dracula Theme for [Standard Notes](https://standardnotes.org/)
+# Dracula Theme for [Standard Notes](https://standardnotes.com/)
 
-> A dark theme for [Standard Notes](https://standardnotes.org/)
+> A dark theme for [Standard Notes](https://standardnotes.com/)
 
 ![Screenshot](./screenshot.png)
-
-The editor used in the screenshot is the [Rich Markdown Editor](https://github.com/arturolinares/sn-rme).
 
 ## Install
 
@@ -20,9 +18,13 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 
 ## Community
 
-- [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
-- [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
-- [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
+- [Dracula Twitter](https://twitter.com/draculatheme)
+- [Dracula GitHub](https://github.com/dracula/dracula-theme/discussions)issues.
+- [Dracula Discord](https://draculatheme.com/discord-invite)
+-
+- [Standard Notes Twitter](https://twitter.com/standardnotes)
+- [Standard Notes GitHub](https://github.com/standardnotes)
+- [Standard Notes Discord](https://standardnotes.com/discord)
 
 ## License
 
