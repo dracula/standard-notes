@@ -6,7 +6,7 @@
   "version": "0.0.18",
   "description": "A Dracula theme for Standard Notes",
   "url": "https://cdn.jsdelivr.net/gh/dracula/standard-notes@0.0.18/dist/dist.css",
-  "latest_url": "https://cdn.jsdelivr.net/gh/dracula/standard-notes@master/sn-theme-dracula.json",
+  "latest_url": "https://cdn.jsdelivr.net/gh/dracula/standard-notes@master/ext.json",
   "download_url": "https://github.com/dracula/standard-notes/archive/0.0.18.zip",
   "marketing_url": "https://github.com/dracula/standard-notes",
   "thumbnail_url": "https://cdn.jsdelivr.net/gh/dracula/standard-notes/preview.png",
