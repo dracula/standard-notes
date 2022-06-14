@@ -19,7 +19,7 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 ## Community
 
 - [Dracula Twitter](https://twitter.com/draculatheme)
-- [Dracula GitHub](https://github.com/dracula/dracula-theme/discussions)issues.
+- [Dracula GitHub](https://github.com/dracula/dracula-theme/discussions).
 - [Dracula Discord](https://draculatheme.com/discord-invite)
 -
 - [Standard Notes Twitter](https://twitter.com/standardnotes)
