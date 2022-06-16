@@ -17,11 +17,12 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 | [Sly Bouhafs](https://github.com/slybouhafs)                                                                                                          |
 
 ## Community
-
+### Dracula
 - [Dracula Twitter](https://twitter.com/draculatheme)
 - [Dracula GitHub](https://github.com/dracula/dracula-theme/discussions).
 - [Dracula Discord](https://draculatheme.com/discord-invite)
--
+
+### Standard Notes
 - [Standard Notes Twitter](https://twitter.com/standardnotes)
 - [Standard Notes GitHub](https://github.com/standardnotes)
 - [Standard Notes Discord](https://standardnotes.com/discord)
