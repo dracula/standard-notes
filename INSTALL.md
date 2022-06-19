@@ -2,7 +2,7 @@
 
 #### Install manually
 
-1. Preferences > General > Advanced Settings > Install: `https://cdn.jsdelivr.net/gh/dracula/standard-notes@master/ext.json`
+1. Preferences → General → Advanced Settings → Install: `https://cdn.jsdelivr.net/gh/dracula/standard-notes@master/ext.json`
 
 2. Activate the theme!
 
