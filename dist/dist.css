@@ -58,10 +58,14 @@
   --sn-stylekit-scrollbar-track-border-color: var(--comment);
   --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
   --sn-stylekit-grey-5: var(--highlight-color);
-  --sn-stylekit-grey-4-opacity-variant: var(--current-line); }
+  --sn-stylekit-grey-4-opacity-variant: var(--current-line);
+  --navigation-item-selected-background-color: var(--current-line);
+}
 
 .sn-component .sk-panel .sk-panel-footer .left {
-  color: var(--foreground); }
+  color: var(--foreground);
+}
 
 #plus-editor label kbd {
-  background-color: var(--sn-stylekit-background-color); }
+  background-color: var(--sn-stylekit-background-color);
+}
